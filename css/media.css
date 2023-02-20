@@ -1,0 +1,325 @@
+@media screen and (max-width: 1024px) {
+    .block-concept {
+        flex-wrap: wrap;
+    }
+
+    .info-concept, .info-services {
+        width: 100%;
+    }
+
+    .info-concept {
+        margin-bottom: 70px;
+    }
+
+    .img-concept {
+        margin: 0 auto 0 auto;
+    }
+
+    .img-services {
+        background-size: 34%;
+        background-position: right 335px;
+    }
+
+    .info-add-services-bottom {
+        padding: 10px 20px 33px 20px;
+    }
+
+    .info-add-services-bottom a {
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .menu-list li {
+        padding-left: 27px;
+    }
+
+    .main-block {
+        padding-top: 65px;
+    }
+
+    .title-main {
+        font-size: 40px;
+    }
+
+    .title-concept {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .img-services {
+        background-position: right 359px;
+    }
+
+    .info-services p:nth-child(3) {
+        margin-bottom: 50px;
+    }
+
+    .title-ckeck-list {
+        font-size: 25px;
+    }
+
+    .img-ckeck-list {
+        background-size: 45%;
+    }
+    
+    .box-add-services {
+        width: 43%;
+        margin-bottom: 40px;
+    }
+
+    .box-add-services:last-child {
+        margin: 0 auto 0 auto;
+    }
+    
+}
+
+@media screen and (max-width: 680px) {
+    .header {
+        padding-top: 25px;
+        padding-bottom: 18px;
+    }
+
+    .block-menu {
+        display: block;
+    }
+
+    .block-menu .box-phone {
+        display: none;
+    }
+
+    .menu-list {
+        background: #333;
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .menu-list li {
+        display: block;
+        text-align: center;
+        padding: 10px 0 10px 0;
+        color: #fff;
+        border-bottom: 1px solid #fff;
+    }
+
+    .menu-list a {
+        color: #fff;
+    }
+
+    .nav-btn {
+        display: block;
+    }
+
+    .nav-hidden {
+        height: 0;
+    }
+
+    .title-main {
+        font-size: 28px;
+        line-height: 43px;
+    }
+
+    .info-main p, .title-main {
+        text-align: left;
+    }
+
+    .main-block {
+        padding: 35px 0 24px;
+    }
+
+    .img-concept img {
+        border-radius: 0;
+    }
+
+    .block-services {
+        background: #fff;
+    }
+
+    .img-services {
+        background-position: 0 66px;
+        background-size: contain;
+    }
+
+    .info-check-list {
+        width: 100%;
+    }
+
+    .info-services {
+        padding-top: 81%;
+    }
+
+    .list-services ul {
+        padding-left: 15px;
+    }
+
+    .list-services::before {
+        content: none;
+    }
+
+    .info-services p:nth-child(1) {
+        margin-bottom: 40px;
+    }
+
+    .info-services p:nth-child(2) {
+        margin-bottom: 35px;
+        line-height: 18px;
+    }
+
+    .info-services p:nth-child(3) {
+        margin-bottom: 32px;
+    }
+
+    .list-services {
+        margin-bottom: 75px;
+    }
+    
+    .columns-btn {
+        flex-wrap: wrap;
+    }
+
+    .columns-btn a {
+        padding-top: 48px;
+    }
+
+    .ckeck-list {
+        margin-top: 54px;
+    }
+
+    .info-check-list {
+        margin: 0;
+    }
+
+    .ckeck-list {
+        background: #FFF0E9;
+        margin-top: 23px;
+        margin-bottom: 83px;
+    }
+
+    .title-add-services {
+        margin-bottom: 43px;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .img-ckeck-list {
+        background: transparent;
+        padding-top: 76px;
+    }
+
+    .title-ckeck-list {
+        margin-bottom: 18px;
+    }
+
+    .info-check-list p {
+        margin-bottom: 42px;
+        line-height: 18px;
+    }
+
+    .boxes-add-services {
+        justify-content: center;
+    }
+
+    .box-add-services {
+        width: 79%;
+    }
+
+    .block-add-services {
+        padding-bottom: 40px;
+    }
+
+    .block-footer {
+        justify-content: center;
+    }
+
+    .block-footer span {
+        margin-bottom: 17px;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .main-block {
+        padding-bottom: 94px;
+    }
+    .info-main p, .title-main {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .title-concept {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .txt-concept {
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    .block-concept {
+        padding-bottom: 112px;
+    }
+
+    .info-services {
+        padding-top: 102%;
+    }
+
+    .title-services {
+        font-size: 30px;
+        line-height: 37px;
+        margin-bottom: 42px;
+    }
+
+    .info-services p:nth-child(1), .title-ckeck-list {
+        font-size: 25px;
+    }
+
+    .info-services p:nth-child(2), .info-services p:nth-child(3), .list-services span, .info-check-list p {
+        font-size: 15px;
+    }
+
+    .info-services p:nth-child(3) {
+        color: rgba(38, 38, 38, 0.7);
+    }
+
+    .box-add-services {
+        width: 100%;
+    }
+
+    .title-add-services {
+        font-size: 25px;
+        line-height: 30px;
+        text-align: left;
+    }
+}
+
+@media (hover : hover) and (pointer: fine) {
+    .info-add-services-bottom a:hover {
+        color: #BD7048;
+    }
+
+    .info-add-services-bottom a:active {
+        color: #4d2f1f;
+    }
+
+    .columns-btn a:hover {
+        color: #353535;
+    }
+
+    .menu-list a:hover {
+        color: #BD7048;
+    }
+
+    .menu-list a:active {
+        color: #5f3823;
+    }
+
+    .btn:hover {
+        background: #9B512A;
+    }
+
+    .btn:active {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}
